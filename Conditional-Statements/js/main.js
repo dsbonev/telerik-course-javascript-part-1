@@ -293,7 +293,7 @@
         case 90: return 'ninety';
         default:
           if (number < 10) {
-            return onesName;
+            return onesName(number);
 
           } else {
             var ones = number % 10,
